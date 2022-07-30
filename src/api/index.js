@@ -1,8 +1,4 @@
 import axios from "axios"
-// 登录接口
-export function login() {
-    return axios.get("/login/cellphone?phone=15055132024&password=080ZF187")
-}
 // 获取轮播图数据
 export function getBanners() {
     return axios.get("/banner?type=0")
