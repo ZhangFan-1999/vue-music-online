@@ -1,0 +1,28 @@
+a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body,
+html {
+    background-color: #222;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
